@@ -87,5 +87,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\all-country-flags-with-names-wide-wallpaper.jpg" />
+    <Content Include="resources\flagfull.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
