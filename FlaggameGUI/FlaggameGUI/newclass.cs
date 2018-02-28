@@ -8,6 +8,7 @@ namespace FlaggameGUI
 {
     class newclass
     {
-        // testing 
+        // testing
+        // adding a comment
     }
 }
