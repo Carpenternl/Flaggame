@@ -61,11 +61,11 @@
     <Compile Include="newclass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScoreBoard.cs">
+    <Compile Include="ScoreBoardControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ScoreBoard.Designer.cs">
-      <DependentUpon>ScoreBoard.cs</DependentUpon>
+    <Compile Include="ScoreBoardControl.Designer.cs">
+      <DependentUpon>ScoreBoardControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -81,9 +81,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ScoreBoard.resx">
-      <DependentUpon>ScoreBoard.cs</DependentUpon>
+    <EmbeddedResource Include="ScoreBoardControl.resx">
+      <DependentUpon>ScoreBoardControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -101,6 +102,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="resources\flagaho.jpg" />
+    <Content Include="resources\Nederland.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

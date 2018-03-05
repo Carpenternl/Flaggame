@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace FlaggameGUI
 {
-    public partial class ScoreBoard : UserControl
+    public partial class ScoreBoardControl : UserControl
     {
         int currentscore = 0;
         int lastscore;
         int highscore;
         double avg;
-        public ScoreBoard()
+        public ScoreBoardControl()
         {
             InitializeComponent();
             recentscores = new List<bool>();
@@ -48,10 +48,10 @@ namespace FlaggameGUI
         }
         private void updateDisplay()
         {
-            LabelCurrenctScoreDisplay.Text = currentscore.ToString();
-            LabelLastScoreDisplay.Text = lastscore.ToString();
-            LabelHighScoreDisplay.Text = highscore.ToString();
-            LabelAccuracyDisplay.Text = "%"+((int)(avg * 100)).ToString();
+            labelCurrentScoreResult.Text = currentscore.ToString();
+            labelLastScoreResult.Text = lastscore.ToString();
+            labelHighScoreResult.Text = highscore.ToString();
+            labelAverageAccuracyResult.Text = "%"+((int)(avg * 100)).ToString();
         }
         /// <summary>
         ///  returns the average accuracy of your last 100 answers

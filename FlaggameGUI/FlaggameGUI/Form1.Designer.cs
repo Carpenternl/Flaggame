@@ -28,9 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.scoreBoard1 = new FlaggameGUI.ScoreBoard();
             this.gameViewControl1 = new FlaggameGUI.GameViewControl();
+            this.scoreBoard1 = new FlaggameGUI.ScoreBoardControl();
             this.SuspendLayout();
+            // 
+            // gameViewControl1
+            // 
+            this.gameViewControl1.Location = new System.Drawing.Point(12, 12);
+            this.gameViewControl1.Name = "gameViewControl1";
+            this.gameViewControl1.Size = new System.Drawing.Size(412, 375);
+            this.gameViewControl1.TabIndex = 1;
             // 
             // scoreBoard1
             // 
@@ -38,15 +45,8 @@
             this.scoreBoard1.Location = new System.Drawing.Point(430, 12);
             this.scoreBoard1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.scoreBoard1.Name = "scoreBoard1";
-            this.scoreBoard1.Size = new System.Drawing.Size(310, 143);
+            this.scoreBoard1.Size = new System.Drawing.Size(250, 88);
             this.scoreBoard1.TabIndex = 0;
-            // 
-            // gameViewControl1
-            // 
-            this.gameViewControl1.Location = new System.Drawing.Point(12, 12);
-            this.gameViewControl1.Name = "gameViewControl1";
-            this.gameViewControl1.Size = new System.Drawing.Size(412, 347);
-            this.gameViewControl1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -65,7 +65,7 @@
 
         #endregion
 
-        private ScoreBoard scoreBoard1;
+        private ScoreBoardControl scoreBoard1;
         private GameViewControl gameViewControl1;
     }
 }
