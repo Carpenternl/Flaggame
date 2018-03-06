@@ -101,8 +101,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="resources\Armenia.bmp" />
+    <Content Include="resources\Australia.bmp" />
+    <Content Include="resources\Bangladesh.bmp" />
+    <Content Include="resources\Belgium.bmp" />
     <Content Include="resources\flagaho.jpg" />
+    <Content Include="resources\France.bmp" />
+    <Content Include="resources\Frankrijk.bmp" />
+    <Content Include="resources\Germany.bmp" />
     <Content Include="resources\Nederland.bmp" />
+    <Content Include="resources\Netherlands.bmp" />
+    <Content Include="resources\Poland.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
