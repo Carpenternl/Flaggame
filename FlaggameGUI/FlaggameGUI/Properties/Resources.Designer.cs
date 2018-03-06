@@ -63,9 +63,79 @@ namespace FlaggameGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Nederland {
+        internal static System.Drawing.Bitmap Armenia {
             get {
-                object obj = ResourceManager.GetObject("Nederland", resourceCulture);
+                object obj = ResourceManager.GetObject("Armenia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Australia {
+            get {
+                object obj = ResourceManager.GetObject("Australia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bangladesh {
+            get {
+                object obj = ResourceManager.GetObject("Bangladesh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Belgium {
+            get {
+                object obj = ResourceManager.GetObject("Belgium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap France {
+            get {
+                object obj = ResourceManager.GetObject("France", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Frankrijk {
+            get {
+                object obj = ResourceManager.GetObject("Frankrijk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Germany {
+            get {
+                object obj = ResourceManager.GetObject("Germany", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Netherlands {
+            get {
+                object obj = ResourceManager.GetObject("Netherlands", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +146,16 @@ namespace FlaggameGUI.Properties {
         internal static System.Drawing.Bitmap Overview {
             get {
                 object obj = ResourceManager.GetObject("Overview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Poland {
+            get {
+                object obj = ResourceManager.GetObject("Poland", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
