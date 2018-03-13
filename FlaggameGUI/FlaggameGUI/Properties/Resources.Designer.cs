@@ -113,16 +113,6 @@ namespace FlaggameGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Frankrijk {
-            get {
-                object obj = ResourceManager.GetObject("Frankrijk", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Germany {
             get {
                 object obj = ResourceManager.GetObject("Germany", resourceCulture);
@@ -136,16 +126,6 @@ namespace FlaggameGUI.Properties {
         internal static System.Drawing.Bitmap Netherlands {
             get {
                 object obj = ResourceManager.GetObject("Netherlands", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Overview {
-            get {
-                object obj = ResourceManager.GetObject("Overview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
