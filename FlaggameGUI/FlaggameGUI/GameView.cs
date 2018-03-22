@@ -16,5 +16,10 @@ namespace FlaggameGUI
         {
             InitializeComponent();
         }
+
+        private void gameViewControl1_OnAnswer(object sender, CustomEventArg e)
+        {
+            this.scoreBoardControl1.updateScoreBoard(e.result);
+        }
     }
 }

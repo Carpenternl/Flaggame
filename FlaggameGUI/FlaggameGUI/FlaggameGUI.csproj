@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,7 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomEventArg.cs" />
     <Compile Include="FlagCarier.cs" />
+    <Compile Include="FlagCel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FlagCel.Designer.cs">
+      <DependentUpon>FlagCel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlagOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FlagOverview.Designer.cs">
+      <DependentUpon>FlagOverview.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,7 +80,6 @@
     <Compile Include="GameViewControl.Designer.cs">
       <DependentUpon>GameViewControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="newclass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScoreBoardControl.cs">
@@ -73,6 +88,12 @@
     <Compile Include="ScoreBoardControl.Designer.cs">
       <DependentUpon>ScoreBoardControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FlagCel.resx">
+      <DependentUpon>FlagCel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlagOverview.resx">
+      <DependentUpon>FlagOverview.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,11 +135,8 @@
     <Content Include="resources\Australia.bmp" />
     <Content Include="resources\Bangladesh.bmp" />
     <Content Include="resources\Belgium.bmp" />
-    <Content Include="resources\flagaho.jpg" />
     <Content Include="resources\France.bmp" />
-    <Content Include="resources\Frankrijk.bmp" />
     <Content Include="resources\Germany.bmp" />
-    <Content Include="resources\Nederland.bmp" />
     <Content Include="resources\Netherlands.bmp" />
     <Content Include="resources\Poland.bmp" />
   </ItemGroup>

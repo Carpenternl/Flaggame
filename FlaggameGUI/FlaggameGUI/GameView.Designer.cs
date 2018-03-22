@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.gameViewControl1 = new FlaggameGUI.GameViewControl();
-            this.scoreBoardControl1 = new FlaggameGUI.ScoreBoardControl();
             this.buttonReturn = new System.Windows.Forms.Button();
             this.labelInfo = new System.Windows.Forms.Label();
+            this.gameViewControl1 = new FlaggameGUI.GameViewControl();
+            this.scoreBoardControl1 = new FlaggameGUI.ScoreBoardControl();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,25 +55,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(829, 506);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // gameViewControl1
-            // 
-            this.gameViewControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gameViewControl1.Location = new System.Drawing.Point(3, 3);
-            this.gameViewControl1.Name = "gameViewControl1";
-            this.tableLayoutPanel1.SetRowSpan(this.gameViewControl1, 3);
-            this.gameViewControl1.Size = new System.Drawing.Size(408, 500);
-            this.gameViewControl1.TabIndex = 0;
-            // 
-            // scoreBoardControl1
-            // 
-            this.scoreBoardControl1.AutoSize = true;
-            this.scoreBoardControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.scoreBoardControl1.Location = new System.Drawing.Point(417, 2);
-            this.scoreBoardControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.scoreBoardControl1.Name = "scoreBoardControl1";
-            this.scoreBoardControl1.Size = new System.Drawing.Size(409, 228);
-            this.scoreBoardControl1.TabIndex = 1;
-            // 
             // buttonReturn
             // 
             this.buttonReturn.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -94,6 +75,26 @@
             this.labelInfo.TabIndex = 3;
             this.labelInfo.Text = "select the name of the country that the flag belongs to. Scores are not kept afte" +
     "r you exit.";
+            // 
+            // gameViewControl1
+            // 
+            this.gameViewControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gameViewControl1.Location = new System.Drawing.Point(3, 3);
+            this.gameViewControl1.Name = "gameViewControl1";
+            this.tableLayoutPanel1.SetRowSpan(this.gameViewControl1, 3);
+            this.gameViewControl1.Size = new System.Drawing.Size(408, 500);
+            this.gameViewControl1.TabIndex = 0;
+            this.gameViewControl1.OnAnswer += new FlaggameGUI.GameViewControl.AnswerHandler(this.gameViewControl1_OnAnswer);
+            // 
+            // scoreBoardControl1
+            // 
+            this.scoreBoardControl1.AutoSize = true;
+            this.scoreBoardControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scoreBoardControl1.Location = new System.Drawing.Point(417, 2);
+            this.scoreBoardControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.scoreBoardControl1.Name = "scoreBoardControl1";
+            this.scoreBoardControl1.Size = new System.Drawing.Size(409, 228);
+            this.scoreBoardControl1.TabIndex = 1;
             // 
             // GameView
             // 
